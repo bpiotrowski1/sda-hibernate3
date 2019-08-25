@@ -18,6 +18,7 @@ public class Uzytkownik {
   @Column
   @Getter @Setter
   private String imie;
+  //@Column(name = "nazwisko")
   @Column
   @Getter @Setter
   private String nazwisko;
